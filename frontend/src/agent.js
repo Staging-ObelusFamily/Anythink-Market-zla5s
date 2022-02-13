@@ -8,6 +8,7 @@ const API_ROOT =
     ? `${process.env.REACT_APP_BACKEND_URL}/api`
     : "https://api.anythink.market/api";
 
+
 const encode = encodeURIComponent;
 const responseBody = (res) => res.body;
 
