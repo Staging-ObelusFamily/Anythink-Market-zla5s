@@ -9,6 +9,9 @@ import { ConnectedRouter } from "react-router-redux";
 
 import App from "./components/App";
 
+// REACT_APP_BACKEND_URL='KSJGKJS'
+
+
 ReactDOM.render(
   <Provider store={store}>
     <ConnectedRouter history={history}>
